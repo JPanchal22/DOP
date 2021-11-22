@@ -11,7 +11,7 @@
 
   <name>dop</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://52.207.246.90:9000/</url>
+  <url>http://52.207.246.90:9000/dop-1.0-SNAPSHOT/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
