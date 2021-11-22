@@ -7,10 +7,11 @@
   <groupId>com.devops.app</groupId>
   <artifactId>dop</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>war</packaging>
 
   <name>dop</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://ec2-52-207-246-90.compute-1.amazonaws.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
