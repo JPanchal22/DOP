@@ -2,15 +2,27 @@ pipeline {
     agent any
 
     stages {
-        stage('Build & Test') {
+        stage('Build') {
             steps {
-                mvn clean package
+                echo 'Build process done'
             }
         }
         
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploy process done'
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                echo 'Test process done'
+            }
+        }
+        
+        stage('Release') {
+            steps {
+                echo 'Release process done'
             }
         }
     }
